@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.bgBody {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 22px;
+}
+.ContentStyle {
+  margin-right: 22px;
+  margin-left: 22px;
+  height: 400px;
+}
+.leftNavBar {
+  background-color: #e2e8f0;
+  padding: 22px;
+  height: 400px;
+}
+.RightNavBar {
+  background-color: #e2e8f0;
+  padding: 22px;
+  height: 400px;
+}
+.Ad1 {
+  padding: 22px;
+  text-align: center;
+  border: 1px solid #64748b;
+  margin: 12px;
+}
+.Ad2 {
+  padding: 22px;
+  text-align: center;
+  border: 1px solid #64748b;
+  margin: 12px;
+}
+.ul {
+  list-style-type: none;
+}
+
+@media (max-width: 767px) {
+  .bgBody {
+    display: flex;
+    flex-direction: column;
+  }
+}
